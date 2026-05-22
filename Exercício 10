@@ -1,0 +1,4 @@
+function calcularMoedaEstrangeira(valorMoedaEstrangeira, taxaCambio) {
+    const valorReais = valorMoedaEstrangeira * taxaCambio;
+    return { valorMoedaEstrangeira, taxaCambio, valorReais };
+}
