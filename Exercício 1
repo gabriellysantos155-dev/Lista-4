@@ -1,0 +1,6 @@
+function calcularDesconto(precoOriginal, percentualDesconto) {
+    const valorDesconto = precoOriginal * (percentualDesconto / 100);
+    const precoFinal = precoOriginal - valorDesconto;
+    const economia = valorDesconto;
+    return { precoOriginal, percentualDesconto, valorDesconto, precoFinal, economia };
+}
