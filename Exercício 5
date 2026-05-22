@@ -1,0 +1,5 @@
+function calcularRentabilidade(valorInicial, valorAtual) {
+    const lucroObtido = valorAtual - valorInicial;
+    const rentabilidade = (lucroObtido / valorInicial) * 100;
+    return { valorInicial, valorAtual, lucroObtido, rentabilidade };
+}
