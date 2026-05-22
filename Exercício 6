@@ -1,0 +1,5 @@
+function calcularMRU(s0, v, t) {
+    const s = s0 + (v * t);
+    const distanciaPercorrida = Math.abs(v * t);
+    return { s0, v, t, s, distanciaPercorrida };
+}
