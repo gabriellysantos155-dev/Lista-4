@@ -1,0 +1,6 @@
+function calcularCustoViagem(distancia, consumoMedio, precoCombustivel) {
+    const litrosNecessarios = distancia / consumoMedio;
+    const custoTotal = litrosNecessarios * precoCombustivel;
+    const custoIdaVolta = custoTotal * 2;
+    return { distancia, consumoMedio, litrosNecessarios, custoTotal, custoIdaVolta };
+}
