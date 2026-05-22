@@ -1,0 +1,5 @@
+function calcularSalarioBonus(salarioBase, percentualBonus) {
+    const valorBonus = salarioBase * (percentualBonus / 100);
+    const salarioFinal = salarioBase + valorBonus;
+    return { salarioBase, percentualBonus, valorBonus, salarioFinal };
+}
