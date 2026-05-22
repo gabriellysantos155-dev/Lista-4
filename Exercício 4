@@ -1,0 +1,5 @@
+function calcularLucro(custoAquisicao, precoVenda) {
+    const lucro = precoVenda - custoAquisicao;
+    const margemLucro = (lucro / custoAquisicao) * 100;
+    return { custoAquisicao, precoVenda, lucro, margemLucro };
+}
