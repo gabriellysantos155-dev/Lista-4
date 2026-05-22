@@ -1,0 +1,4 @@
+function calcularBitcoin(quantidadeBtc, precoBtcReais) {
+    const valorTotal = quantidadeBtc * precoBtcReais;
+    return { quantidadeBtc, precoBtcReais, valorTotal };
+}
