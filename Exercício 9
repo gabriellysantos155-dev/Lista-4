@@ -1,0 +1,6 @@
+function calcularGorjeta(valorConta, percentual, qtdPessoas = 1) {
+    const valorGorjeta = valorConta * (percentual / 100);
+    const totalComGorjeta = valorConta + valorGorjeta;
+    const valorPorPessoa = totalComGorjeta / qtdPessoas;
+    return { valorConta, percentual, valorGorjeta, totalComGorjeta, valorPorPessoa };
+}
